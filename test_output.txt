@@ -1,0 +1,38 @@
+﻿--- Verifying Payment System (Detailed Logging) ---
+[REQ] POST /auth/login (Token: No)
+[RES] 200 /auth/login
+[REQ] POST /auth/login (Token: No)
+[RES] 200 /auth/login
+[REQ] POST /payments/deposit (Token: Yes)
+[RES] 401 /payments/deposit
+node : --- 
+VERIFICATION FAILED 
+---
+At line:1 char:1
++ node payment_verific
+ation.js 2>&1 | 
+Out-File -FilePath 
+test_output.tx ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (--- VERIFI   
+ CATION FAILED ---    
+:String) [], Remo    
+teException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+Endpoint: 
+/payments/deposit
+Status: 401
+Error: Invalid API 
+Key provided: 
+sk_test_mock
+Data: { success: 
+false, error: 
+'Invalid API Key 
+provided: 
+sk_test_mock' }

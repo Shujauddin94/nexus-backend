@@ -1,0 +1,46 @@
+{
+    "success":  true,
+    "count":  4,
+    "data":  [
+                 {
+                     "_id":  "699112ec0f7e533fdf316086",
+                     "title":  "dummy.pdf",
+                     "fileUrl":  "https://nexus-uploads.s3.amazonaws.com/1771115244852_dummy.pdf",
+                     "uploadedBy":  "507f1f77bcf86cd799439011",
+                     "version":  1,
+                     "status":  "Draft",
+                     "createdAt":  "2026-02-15T00:27:24.863Z",
+                     "__v":  0
+                 },
+                 {
+                     "_id":  "69911ae50f7e533fdf31614e",
+                     "title":  "Full Stack Development Internship Tasks ? Nexus Platform.docx",
+                     "fileUrl":  "https://nexus-uploads.s3.amazonaws.com/1771117285425_Full Stack Development Internship Tasks ??? Nexus Platform.docx",
+                     "uploadedBy":  "507f1f77bcf86cd799439011",
+                     "version":  1,
+                     "status":  "Draft",
+                     "createdAt":  "2026-02-15T01:01:25.537Z",
+                     "__v":  0
+                 },
+                 {
+                     "_id":  "69911c170f7e533fdf316161",
+                     "title":  "Investment Agreement",
+                     "fileUrl":  "https://nexus-uploads.s3.amazonaws.com/1771117591307_investment_agreement.pdf",
+                     "uploadedBy":  "507f1f77bcf86cd799439011",
+                     "version":  1,
+                     "status":  "Draft",
+                     "createdAt":  "2026-02-15T01:06:31.311Z",
+                     "__v":  0
+                 },
+                 {
+                     "_id":  "699121330f7e533fdf3161a4",
+                     "title":  "Final Agreement",
+                     "fileUrl":  "https://nexus-uploads.s3.amazonaws.com/1771118899060_final.pdf",
+                     "uploadedBy":  "507f1f77bcf86cd799439011",
+                     "version":  1,
+                     "status":  "Draft",
+                     "createdAt":  "2026-02-15T01:28:19.069Z",
+                     "__v":  0
+                 }
+             ]
+}

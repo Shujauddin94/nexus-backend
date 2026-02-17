@@ -1,0 +1,11 @@
+﻿--- Verifying Payment System (Detailed Logging) ---
+[REQ] POST /auth/login (Token: No)
+[RES] 401 /auth/login
+Recipient not found, creating...
+[REQ] POST /auth/register (Token: No)
+[RES] 201 /auth/register
+[REQ] POST /auth/login (Token: No)
+[RES] 200 /auth/login
+[REQ] POST /payments/deposit (Token: Yes)
+[RES] 200 /payments/deposit
+Verification Success!
